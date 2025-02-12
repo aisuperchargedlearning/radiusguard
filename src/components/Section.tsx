@@ -20,12 +20,9 @@ const Section: React.FC<SectionProps> = ({
 }) => {
   return (
     <div
-      className="relative h-screen flex items-center justify-center snap-start overflow-hidden"
+      className="relative h-screen flex items-center justify-center snap-start bg-cover bg-center bg-no-repeat"
       style={{
         backgroundImage: `url("${backgroundImage}")`,
-        backgroundSize: 'cover',
-        backgroundPosition: 'center',
-        backgroundAttachment: 'fixed',
       }}
     >
       <div className="absolute inset-0 bg-gradient-to-br from-black/80 to-black/40" />
