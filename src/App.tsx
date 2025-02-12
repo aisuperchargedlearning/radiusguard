@@ -41,12 +41,9 @@ function App() {
       {/* Hero Section */}
       <div
         ref={heroRef}
-        className="relative h-screen flex items-center justify-center snap-start"
+        className="relative h-screen flex items-center justify-center snap-start bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url("https://ik.imagekit.io/a7tech/Open%20Source%20Dwelling/Firestorm.jpg")',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundAttachment: 'fixed',
+          backgroundImage: 'url("https://ik.imagekit.io/a7tech/Open%20Source%20Dwelling/Firestorm.jpg?tr=w-1200,h-800,f-auto")',
         }}
       >
         <div className="absolute inset-0 bg-black/60" />
@@ -75,12 +72,9 @@ function App() {
 
       {/* Conclusion Section */}
       <div
-        className="relative h-screen flex items-center justify-center snap-start"
+        className="relative h-screen flex items-center justify-center snap-start bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url("https://ik.imagekit.io/a7tech/Open%20Source%20Dwelling/nicehousewithprotection.jpg")',
-          backgroundSize: 'cover',
-          backgroundPosition: 'center',
-          backgroundAttachment: 'fixed',
+          backgroundImage: 'url("https://ik.imagekit.io/a7tech/Open%20Source%20Dwelling/nicehousewithprotection.jpg?tr=w-1200,h-800,f-auto")',
         }}
       >
         <div className="absolute inset-0 bg-black/40" />
